@@ -8,3 +8,7 @@
     - https://www.youtube.com/watch?v=pTFZFxd4hOI
 3. built dockerfile with `docker build -t basic-linux-image .`. Run docker with `docker run -it --rm -p 8080:80 basic-linux-image`
 4. docker terminal screent shot in file `docker terminal.png`
+
+
+## Huggingface sentiment analysis app
+Link to hugging face page: https://huggingface.co/spaces/Olivernyu/sentiment_analysis_app
