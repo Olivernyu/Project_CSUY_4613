@@ -13,6 +13,8 @@
 ## Huggingface sentiment analysis app
 Link to hugging face page: https://huggingface.co/spaces/Olivernyu/sentiment_analysis_app
 
+There is a copy of the huggingface app in sentiment_analysis/app.py 
+
 
 ## Milestone 3: finetuning language model
 1. I am finetuning the bert-base-uncased pre-trained model
