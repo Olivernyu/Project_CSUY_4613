@@ -24,8 +24,13 @@ I had and overcame an issue where the toxic category dominates the probability. 
 
 ## Model Accuracy:(used training data from this [dataset](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge))
 Accuracy for toxic: 0.9867
+
 Accuracy for severe_toxic: 0.9933
+
 Accuracy for obscene: 0.9900
+
 Accuracy for threat: 1.0000
+
 Accuracy for insult: 0.9867
+
 Accuracy for identity_hate: 0.9933
