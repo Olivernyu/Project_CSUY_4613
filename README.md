@@ -37,3 +37,7 @@ Accuracy for insult: 0.9867
 Accuracy for identity_hate: 0.9933
 
 The test code can be found within AccuracyTest.ipynb
+
+## Project Google sites page
+
+https://sites.google.com/nyu.edu/finetuning-language-models-oli/home
