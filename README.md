@@ -21,3 +21,11 @@ Link to hugging face page: https://huggingface.co/spaces/Olivernyu/sentiment_ana
 4. The finetuned model is added to my sentiment analysis app, which can found here: https://huggingface.co/spaces/Olivernyu/sentiment_analysis_app.
 
 I had and overcame an issue where the toxic category dominates the probability. It is usually the highest, with the second highest probablity category is usually consistent with the text. For example, if there is a text that contains a threat, the probability of the toxic category will be highest, followed by threat. The same goes for text that corresponds to any other category like obscene, insult, or identity hate. I looked into the dataset and found that nearly all positive occurences for categories that are not toxic also have positive for toxic. I mitigated this through using a weighted binary cross entropy loss and saw improvements in the performance of the model. It now does fairly well on categorizing `insult` and `obscene` in addition to `toxic`, but is still not ideal for `threat` and `identity_hate` due to the small number of training samples.
+
+## Model Accuracy:(used training data from this [dataset](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge))
+Accuracy for toxic: 0.9867
+Accuracy for severe_toxic: 0.9933
+Accuracy for obscene: 0.9900
+Accuracy for threat: 1.0000
+Accuracy for insult: 0.9867
+Accuracy for identity_hate: 0.9933
